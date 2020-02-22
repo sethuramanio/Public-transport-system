@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <script language="JavaScript" type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/signup.js"></script>
+
+</head>
+<body>
+    <div class="page-bg">
+    </div>
+    <header>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        <h1 id="heading">New User</h1>
+    </header>
+    <form onsubmit="post();">
+        <div id="sign">
+            <br ><br >
+            <h2 class="l">Username:  <input type="text" id="login" name="Login"></h2>
+            <h2 class="l">Password:  <input type="password" id="password" name="Password"></h2>
+            <h2 class="l">Rfid tag:  <input type="text" id="rfidtag" name="rfidtag"></h2>
+            <h2 class="l">Name:  <input type="text" id="name" name="name"></h2>
+            <h2 class="l">Age:  <input type="text" id="age" name="age"></h2>
+            <h2 class="l">Address:  <input type="text" id="address" name="address"></h2>
+            <input id="click" type="button" value="Submit">
+        </div>
+    </form>
+   
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Signup</a>
+        <a href="accountdetails.html">Account Details</a>
+        <a href="addmoney.html">Add Money</a>
+        <a href="count.html">Count Bus</a>
+        <a href="Bustrack.html">Bus Track</a>
+        <a href="history.html">History</a>
+        <a href="busroute.html">Busroute</a>
+        <a href="livetrack.html">Live Track</a>
+        <a href="googlemap.html">Map</a>
+        <a href="about.html">About</a>
+
+    </div>
+</body>
+</html>
